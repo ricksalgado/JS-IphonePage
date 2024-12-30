@@ -162,40 +162,55 @@ header nav {
     margin-top: 0.6rem;
 }
 
-#green .color{
+#green .color {
     background-color: #394c38;
 }
 
-#silver .color{
+#silver .color {
     background-color: #f1f2ed;
 }
-#golden .color{
+
+#golden .color {
     background-color: #fae7cf;
 }
-#grafiti .color{
+
+#grafiti .color {
     background-color: #54524f;
 }
-#blue .color{
+
+#blue .color {
     background-color: #a7c1d9;
 }
 
-.selected{
+.selected {
     outline: 2px solid #0071e3;
 }
 
 /* Mobile */
 @media (max-width: 480px) {
-    #navbar li{
+    #navbar li {
         display: none;
+        justify-self: center;
     }
-    #navbar #logo{
+
+    #navbar #logo {
         display: flex;
     }
 
-    #bottom-header-links a{
+    #bottom-header-links a {
         display: none;
     }
-    #bottom-header-links .btn{
+
+    #bottom-header-links .btn {
         display: flex;
+    }
+
+    #main-content {
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    #main-content #subtitle {
+        font-size: 3rem;
     }
 }
