@@ -1,1 +1,11 @@
-console.log('deu certo 3')
+const buttons = document.querySelectorAll('#image-picker li');
+const image = document.querySelector('#product-image');
+
+buttons.forEach((btn) =>{
+    btn.addEventListener("click", () => {
+        console.log('a')
+    })
+
+
+
+})

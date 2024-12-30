@@ -187,10 +187,10 @@ header nav {
 }
 
 /* Mobile */
-@media (max-width: 480px) {
+@media (max-width: 587px) {
     #navbar li {
         display: none;
-        justify-self: center;
+        margin: 0 auto;
     }
 
     #navbar #logo {
